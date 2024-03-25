@@ -33,7 +33,7 @@ T -->|No| X(End)
 
 
 ## Remarks 
-Disalbe CNI Chaining - remove the exising CNI ( ie - in AWS remove aws node)  
-Light mtls - based on SPIFEE/SPIRE , without Envoy as sidecar .
-Currently encryption is must for authentication - https://docs.cilium.io/en/latest/network/servicemesh/mutual-authentication/mutual-authentication/?utm_source=thenewstack&utm_medium=website&utm_content=inline-mention&utm_campaign=platform
+* Disalbe CNI Chaining - remove the exising CNI ( ie - in AWS remove aws node)   
+* Light mtls - based on SPIFEE/SPIRE , without Envoy as sidecar .  
+* Currently encryption is must for [authentication]( https://docs.cilium.io/en/latest/network/servicemesh/mutual-authentication/mutual-authentication/?utm_source=thenewstack&utm_medium=website&utm_content=inline-mention&utm_campaign=platform)
 
