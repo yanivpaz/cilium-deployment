@@ -1,7 +1,11 @@
 ## Decision graph
 
-temporary clarification before opening PR to Cilium documentation . 
+temporary clarification before opening PR to Cilium documentation .   
 the flow is based on https://isovalent.com/blog/post/2022-05-03-servicemesh-security/ .
+
+The purpose is to answer the following questions :
+1. when user need to replace existing CNI ?
+2. when user need to replace exising kube proxy ?
 
 ```mermaid
 graph TD
