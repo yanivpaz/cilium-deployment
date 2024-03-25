@@ -6,7 +6,7 @@ the flow is based on https://isovalent.com/blog/post/2022-05-03-servicemesh-secu
 ```mermaid
 graph TD
 A{Need encryption ? }
-A -->|No| Q(End . <br> Cant implement authentication) 
+A -->|No| Q( <br> Cant implement authentication) 
 
    
  B{Need advanced Layer 7 features ?} -->|No| D(Use Cilium MTLS,<Br> part of the Cilium CNI)
