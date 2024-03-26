@@ -15,7 +15,7 @@ A -->|No| Q( <br> Cant implement authentication)
    
  B{Need advanced Layer 7 features ?} -->|No| D(Use Cilium MTLS,<Br> part of the Cilium CNI)
 B -->|Yes| E(Replace K8s kube proxy with Cilium kube proxy)
-E -->|Yes| M(Install Cilium service mesh)
+E -->|Yes| M(Install service mesh solution)
 
 
 
