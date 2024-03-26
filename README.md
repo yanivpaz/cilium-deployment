@@ -1,12 +1,16 @@
-## Decision graph
+## Deployment options for Cilium CNI
 
 temporary clarification before opening PR to Cilium documentation .   
 the flow is based on https://isovalent.com/blog/post/2022-05-03-servicemesh-security/ .
 
-The purpose is to answer the following questions :
-1. when user need to replace existing CNI ?
-2. when user need to replace exising kube proxy ?
+### Scope 
+avoid service mesh for having encryption between the K8s worker nodes .  
 
+The purpose is to answer the following questions :
+1. when user needs to replace existing CNI ?
+2. when user needs to replace exising kube proxy ?
+
+### Decision tree
 ```mermaid
 graph TD
 A{Need encryption ? }
